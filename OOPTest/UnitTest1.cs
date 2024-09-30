@@ -39,7 +39,7 @@ namespace OOPTest
         [Test]
         public void PremiumCustomerCanBuyMultipleBooks()
         {
-            // Regular customer buys both fiction and non-fiction books
+            // premium customer buys both fiction and non-fiction books
             premiumCustomer.BuyBook(fiction);
             premiumCustomer.BuyBook(nonFiction);
 
